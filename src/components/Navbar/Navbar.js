@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { BiMenu } from "react-icons/bi"
+import { AiOutlineClose } from "react-icons/ai"
 import "./Navbar.css";
 
 function NavBar() {
@@ -36,6 +38,9 @@ function NavBar() {
                         updateExpanded(expand ? false : "expanded")
                     }}
                 >
+                    {expand ?
+                        <AiOutlineClose /> :
+                        <BiMenu />}
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
@@ -69,7 +74,7 @@ function NavBar() {
                                 Projects
                             </Nav.Link>
                         </Nav.Item>
-                        
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>
