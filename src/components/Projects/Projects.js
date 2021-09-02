@@ -1,8 +1,9 @@
+import "./projects.css";
 
 function Projects() {
     return(
-        <div>
-            Projects
+        <div className="projects-container">
+            <p>Projects</p>
         </div>
     )
 }

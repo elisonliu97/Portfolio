@@ -1,0 +1,35 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:83.8vh;
+}
+
+.home-front {
+    text-align: center;
+    
+}
+
+.home-text {
+    margin-bottom: 1em;
+}
+
+.home-front button {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.home-front button:hover {
+    transition: all 0.3s;
+    color:plum;
+    border-color:plum;
+}

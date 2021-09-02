@@ -1,11 +1,16 @@
+import "./about.css";
 
 function About() {
     
     return(
-        <div>
-            About
+        <div className="about-container">
+            <p>About</p>
         </div>
     )
 }
 
 export default About;
+
+// introduction to myself
+// skills i know
+// 
