@@ -17,6 +17,7 @@ function App() {
         <TransitionGroup>
           <CSSTransition
             key={location.key}
+            timeout={0}
             classNames="fade"
           >
             <Switch location={location}>

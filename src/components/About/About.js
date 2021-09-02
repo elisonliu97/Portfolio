@@ -1,10 +1,18 @@
+import Skills from "./skills";
 import "./about.css";
 
 function About() {
-    
-    return(
+
+    return (
         <div className="about-container">
-            <p>About</p>
+            <div className="about-main">
+                <h4>header</h4>
+                <p>infosection</p>
+            </div>
+            <Skills />
+            <div className="about-info">
+                <p>Info</p>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,41 @@
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: center;
+}
+
+.about-skills svg {
+    height:5em;
+}
+
+.skill-icon {
+    margin: 1em;
+    padding: 1em 2em 0em 2em;
+    opacity: 0.85;
+    border: 1.7px solid black;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+    transition: all 0.4s ease 0s;
+}
+
+.icon-img {
+    width:100%;
+}
+
+.skill-icon-desc {
+    color:white;
+}
+
+.skill-icon:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+
+.skill-icon:hover .skill-icon-desc {
+    transition: all 0.4s ease 0s;
+    color: black;
+}
