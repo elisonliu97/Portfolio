@@ -1,3 +1,11 @@
 .about-container {
     min-height: 83.8vh;
 }
+
+.about-main {
+    text-align: center;
+}
+
+.about-header {
+    margin: 1em
+}
