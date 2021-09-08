@@ -1,22 +1,16 @@
-
-ul{
-    list-style: none;
-}
-
-
-.container{
-    max-width: 1200px;
+.projects-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height:83.8vh;
+    /* max-width: 1200px; */
     margin: auto;
     padding: 15px;
     text-align: center;
 }
 
-h2{
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 120%;
-    margin-bottom: 20px;
-    color: #fff;
+.projects-container ul{
+    list-style: none;
 }
 
 .filter-menu{
