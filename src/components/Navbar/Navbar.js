@@ -7,17 +7,6 @@ import "./Navbar.css";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
-    const [navType, updateNavType] = useState(false);
-
-    function scrollHandler() {
-        if (window.scrollY >= 20) {
-            updateNavType(true);
-        } else {
-            updateNavType(false);
-        }
-    }
-
-    window.addEventListener("scroll", scrollHandler);
 
     return (
         <Navbar
@@ -25,7 +14,7 @@ function NavBar() {
             collapseOnSelect
             fixed="top"
             expand="md"
-            className={navType ? "sticky" : "top"}
+            className="top"
         >
             <Container>
                 <Navbar.Brand
