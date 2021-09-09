@@ -44,7 +44,7 @@ function Projects() {
             </ul>
 
 
-            <ul className="filter-item">
+            <ul className="card-container">
                 <li className="filter-card" data-item="type1">
                     <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">

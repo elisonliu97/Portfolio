@@ -25,7 +25,7 @@ function NavBar() {
             collapseOnSelect
             fixed="top"
             expand="md"
-            className={navType ? "sticky" : "navbar"}
+            className={navType ? "sticky" : "top"}
         >
             <Container>
                 <Navbar.Brand
