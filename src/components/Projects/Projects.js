@@ -1,5 +1,9 @@
 import { useEffect } from "react";
 import imgs from "../../assets/images"
+import {
+    FaGithub,
+    FaShareSquare,
+} from "react-icons/fa"
 import "./projects.css";
 
 function Projects() {
@@ -29,7 +33,19 @@ function Projects() {
                 }
             });
         }
+
+        for (let i = 0; i < filterCard.length; i++) {
+            filterCard[i].addEventListener('click', function (event) {
+                event.target.parentElement.children[1].style.bottom = "0px";
+            });
+        }
+
+
     })
+
+    function closeTab(event) {
+        event.target.parentElement.parentElement.style.bottom = "-100%";
+    }
 
     return (
 
@@ -43,246 +59,88 @@ function Projects() {
                 <li className="filter-btn" data-target="type3">type3</li>
             </ul>
 
-
             <ul className="card-container">
+
                 <li className="filter-card" data-item="type1">
                     <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
+                            <img src={imgs.logo5} alt="" />
                             <div className="label">
                                 <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo1</span>
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Title</h4>
+                                    <p className='text-info'>Text</p>
+                                    <div className='text-links'>
+                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                    </div>
                                 </div>
                                 <div className="label-bg"></div>
                             </div>
                         </div>
                     </div>
                 </li>
+
                 <li className="filter-card" data-item="type1">
-                <div className="portfolio logo" data-cat="logo">
+                    <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
+                            <img src={imgs.logo5} alt="" />
                             <div className="label">
                                 <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo2</span>
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Title</h4>
+                                    <p className='text-info'>Text</p>
+                                    <div className='text-links'>
+                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                    </div>
                                 </div>
                                 <div className="label-bg"></div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li className="filter-card" data-item="type2">
-                <div className="portfolio logo" data-cat="logo">
+
+                <li className="filter-card" data-item="type1">
+                    <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
+                            <img src={imgs.logo5} alt="" />
                             <div className="label">
                                 <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo3</span>
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Title</h4>
+                                    <p className='text-info'>Text</p>
+                                    <div className='text-links'>
+                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                    </div>
                                 </div>
                                 <div className="label-bg"></div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li className="filter-card" data-item="type2">
-                <div className="portfolio logo" data-cat="logo">
+
+                <li className="filter-card" data-item="type1">
+                    <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
+                            <img src={imgs.logo5} alt="" />
                             <div className="label">
                                 <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo4</span>
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Title</h4>
+                                    <p className='text-info'>Text</p>
+                                    <div className='text-links'>
+                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                    </div>
                                 </div>
                                 <div className="label-bg"></div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo5</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="filter-card" data-item="type3">
-                <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt=""/>
-                            <div className="label">
-                                <div className="label-text">
-                                    <a className="text-title">Bird Document</a>
-                                    <span className="text-category">Logo6</span>
-                                </div>
-                                <div className="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+
             </ul>
         </div>
     )
