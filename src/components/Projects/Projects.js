@@ -36,7 +36,7 @@ function Projects() {
 
         for (let i = 0; i < filterCard.length; i++) {
             filterCard[i].addEventListener('click', function (event) {
-                event.target.parentElement.children[1].style.bottom = "0px";
+                event.target.parentElement.parentElement.children[1].style.bottom = "0px";
             });
         }
 
@@ -64,12 +64,23 @@ function Projects() {
                 <li className="filter-card" data-item="type1">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.codeCreatures} alt="" className="card-img" />
+                            <div className="portfolio-card">
+                                <img src={imgs.codeCreatures} alt="" className="card-img" />
+                            <div className="card-label">
+                                <span className='label-title'>Code Creatures </span> <br />
+                                A pet site to allow kids to learn coding from a young age.
+                            </div>
+                            </div>
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Code Creatures</h4>
-                                    <p className='text-content'>Text</p>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Full Stack Developer <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
                                     <div className='text-links'>
                                         <a href="https://cold-code-creatures.herokuapp.com/"><FaShareSquare className="link-img"/></a>
                                         <a href="https://github.com/Staycold/Code-creatures"><FaGithub className="link-img"/></a>
@@ -84,12 +95,23 @@ function Projects() {
                 <li className="filter-card" data-item="type1">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.bookSearchEngine} alt="" />
+                            <div className="portfolio-card">
+                                <img src={imgs.bookSearchEngine} alt="" className="card-img" />
+                            <div className="card-label">
+                            <span className='label-title'>Book Search Engine</span> <br />
+                                A search engine that uses Google Books API to allow users to keep track of books.
+                            </div>
+                            </div>
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Book Search Engine</h4>
-                                    <p className='text-content'>Text</p>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
                                     <div className='text-links'>
                                         <a href="https://book-search-engine-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
                                         <a href="https://github.com/elisonliu97/Book-Search-Engine"><FaGithub className="link-img"/></a>
@@ -101,15 +123,26 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type2">
+                <li className="filter-card" data-item="type1">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.fitness} alt="" />
+                            <div className="portfolio-card">
+                                <img src={imgs.fitness} alt="" className="card-img" />
+                            <div className="card-label">
+                            <span className='label-title'>Fitness Tracker</span> <br />
+                                A web application to allow users to keep track of their fitness workouts.
+                            </div>
+                            </div>
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Fitness Tracker</h4>
-                                    <p className='text-content'>Text</p>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
                                     <div className='text-links'>
                                         <a href="https://fitness-tracker-hw-el.herokuapp.com"><FaShareSquare className="link-img"/></a>
                                         <a href="https://github.com/elisonliu97/Fitness-Tracker-HW"><FaGithub className="link-img"/></a>
@@ -121,15 +154,26 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type3 type2">
+                <li className="filter-card" data-item="type1">
                     <div className="portfolio">
-                        <div className="portfolio-wrapper"> 
-                            <img src={imgs.tektok} alt="" />
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.tektok} alt="" className="card-img" />
+                            <div className="card-label">
+                            <span className='label-title'>TekTok</span> <br />
+                                A blog style site aimed towards tech users that allows users to post thoughts and comments.
+                            </div>
+                            </div>
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Tektok</h4>
-                                    <p className='text-content'>Text</p>
+                                    <h4 className="text-title">TekTok</h4>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
                                     <div className='text-links'>
                                         <a href="https://tech-blog-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
                                         <a href="https://github.com/elisonliu97/Tech-Blog-HW"><FaGithub className="link-img"/></a>
@@ -141,15 +185,26 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type3">
+                <li className="filter-card" data-item="type1">
                     <div className="portfolio">
-                        <div className="portfolio-wrapper"> 
-                            <img src={imgs.budget} alt="" />
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.budget} alt="" className="card-img" />
+                            <div className="card-label">
+                            <span className='label-title'>Budget Tracker</span> <br />
+                                A web application that allows users to keep track of their spendings and earnings.
+                            </div>
+                            </div>
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Budget Tracker</h4>
-                                    <p className='text-content'>Text</p>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
                                     <div className='text-links'>
                                         <a href="https://budget-tracker-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
                                         <a href="https://github.com/elisonliu97/Budget-Tracker-HW"><FaGithub className="link-img"/></a>
@@ -160,8 +215,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                
-                
+                            
             </ul>
         </div>
     )
