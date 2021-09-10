@@ -5,6 +5,7 @@ import fitness from "./fitness.png"
 import budget from './budget.png'
 import rlogo from './Rlogo.png'
 import expressicon from './expressjs-icon.png'
+import graphqlicon from './graphql.png'
 
 const imgs = {
     codeCreatures,
@@ -13,7 +14,8 @@ const imgs = {
     fitness,
     budget,
     rlogo,
-    expressicon
+    expressicon,
+    graphqlicon
 }
 
 export default imgs;

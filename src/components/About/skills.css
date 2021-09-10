@@ -64,13 +64,18 @@
 @media (max-width: 767px) {
     .skill-icon-desc {
         color: whitesmoke;
+        font-size: 0.7rem;
     }
 
     .about-skills {
         margin: 0em 2em;
     }
 
-    .skill-icon-desc{
-        font-size: 0.7rem;
+    .skill-icon{
+        opacity: 1;
+    }
+
+    .icon-img {
+        opacity: 1;
     }
 }

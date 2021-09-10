@@ -26,7 +26,7 @@ function Projects() {
                     filterCard[k].classList.remove('shown');
                     filterCard[k].classList.add('hide');
 
-                    if (filterCard[k].getAttribute('data-item').includes(targetData)|| targetData === "all") {
+                    if (filterCard[k].getAttribute('data-item').includes(targetData) || targetData === "all") {
                         filterCard[k].classList.remove('hide');
                         filterCard[k].classList.add('shown');
                     }
@@ -66,10 +66,10 @@ function Projects() {
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
                                 <img src={imgs.codeCreatures} alt="" className="card-img" />
-                            <div className="card-label">
-                                <span className='label-title'>Code Creatures </span> <br />
-                                A pet site to allow kids to learn coding from a young age.
-                            </div>
+                                <div className="card-label">
+                                    <span className='label-title'>Code Creatures </span> <br />
+                                    A pet site to allow kids to learn coding from a young age.
+                                </div>
                             </div>
                             <div className="label">
                                 <div className="label-text">
@@ -82,8 +82,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://cold-code-creatures.herokuapp.com/"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://github.com/Staycold/Code-creatures"><FaGithub className="link-img"/></a>
+                                        <a href="https://cold-code-creatures.herokuapp.com/"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/Staycold/Code-creatures"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -97,10 +97,10 @@ function Projects() {
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
                                 <img src={imgs.bookSearchEngine} alt="" className="card-img" />
-                            <div className="card-label">
-                            <span className='label-title'>Book Search Engine</span> <br />
-                                A search engine that uses Google Books API to allow users to keep track of books.
-                            </div>
+                                <div className="card-label">
+                                    <span className='label-title'>Book Search Engine</span> <br />
+                                    A search engine that uses Google Books API to allow users to keep track of books.
+                                </div>
                             </div>
                             <div className="label">
                                 <div className="label-text">
@@ -113,8 +113,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://book-search-engine-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://github.com/elisonliu97/Book-Search-Engine"><FaGithub className="link-img"/></a>
+                                        <a href="https://book-search-engine-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Book-Search-Engine"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -128,10 +128,10 @@ function Projects() {
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
                                 <img src={imgs.fitness} alt="" className="card-img" />
-                            <div className="card-label">
-                            <span className='label-title'>Fitness Tracker</span> <br />
-                                A web application to allow users to keep track of their fitness workouts.
-                            </div>
+                                <div className="card-label">
+                                    <span className='label-title'>Fitness Tracker</span> <br />
+                                    A web application to allow users to keep track of their fitness workouts.
+                                </div>
                             </div>
                             <div className="label">
                                 <div className="label-text">
@@ -144,8 +144,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://fitness-tracker-hw-el.herokuapp.com"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://github.com/elisonliu97/Fitness-Tracker-HW"><FaGithub className="link-img"/></a>
+                                        <a href="https://fitness-tracker-hw-el.herokuapp.com"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Fitness-Tracker-HW"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -159,10 +159,10 @@ function Projects() {
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
                                 <img src={imgs.tektok} alt="" className="card-img" />
-                            <div className="card-label">
-                            <span className='label-title'>TekTok</span> <br />
-                                A blog style site aimed towards tech users that allows users to post thoughts and comments.
-                            </div>
+                                <div className="card-label">
+                                    <span className='label-title'>TekTok</span> <br />
+                                    A blog style site aimed towards tech users that allows users to post thoughts and comments.
+                                </div>
                             </div>
                             <div className="label">
                                 <div className="label-text">
@@ -174,9 +174,10 @@ function Projects() {
                                             Responsibilities: <br />
                                         </p>
                                     </div>
-                                    <div className='text-links'>
-                                        <a href="https://tech-blog-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://github.com/elisonliu97/Tech-Blog-HW"><FaGithub className="link-img"/></a>
+
+                                    <div className="text-links">
+                                        <a href="https://tech-blog-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Tech-Blog-HW"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -190,10 +191,10 @@ function Projects() {
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
                                 <img src={imgs.budget} alt="" className="card-img" />
-                            <div className="card-label">
-                            <span className='label-title'>Budget Tracker</span> <br />
-                                A web application that allows users to keep track of their spendings and earnings.
-                            </div>
+                                <div className="card-label">
+                                    <span className='label-title'>Budget Tracker</span> <br />
+                                    A web application that allows users to keep track of their spendings and earnings.
+                                </div>
                             </div>
                             <div className="label">
                                 <div className="label-text">
@@ -206,8 +207,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://budget-tracker-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://github.com/elisonliu97/Budget-Tracker-HW"><FaGithub className="link-img"/></a>
+                                        <a href="https://budget-tracker-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Budget-Tracker-HW"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -215,7 +216,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                            
+
             </ul>
         </div>
     )

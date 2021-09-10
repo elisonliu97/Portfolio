@@ -7,6 +7,7 @@ import {
     FaGithub,
     FaLinkedin,
 } from "react-icons/fa"
+import { GoMail } from "react-icons/go"
 import "./Navbar.css";
 
 function NavBar() {
@@ -84,6 +85,7 @@ function NavBar() {
 
                                 <Nav.Link
                                     href="https://www.github.com"
+                                    target="_blank"
                                     onClick={() => updateExpanded(false)}
                                 >
                                     <FaGithub />
@@ -91,9 +93,16 @@ function NavBar() {
 
                                 <Nav.Link
                                     href="https://www.linkedin.com"
+                                    target="_blank"
                                     onClick={() => updateExpanded(false)}
                                 >
                                     <FaLinkedin />
+                                </Nav.Link>
+                                <Nav.Link
+                                    href="mailto:elisonliu97@gmail.com"
+                                    onClick={() => updateExpanded(false)}
+                                >
+                                    <GoMail />
                                 </Nav.Link>
 
                         </div>
