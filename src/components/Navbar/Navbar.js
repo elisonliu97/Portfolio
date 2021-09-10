@@ -35,7 +35,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand
                     as={Link}
-                    to="/">
+                    to="/Portfolio/">
                     Elison Liu
                 </Navbar.Brand>
 
@@ -54,7 +54,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/portfolio"
+                                to="/Portfolio/"
                                 onClick={() => updateExpanded(false)}
                             >
                                 Home
@@ -64,7 +64,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/portfolio/about"
+                                to="/Portfolio/about"
                                 onClick={() => updateExpanded(false)}
                             >
                                 About
@@ -74,7 +74,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/portfolio/projects"
+                                to="/Portfolio/projects"
                                 onClick={() => updateExpanded(false)}
                             >
                                 Projects
