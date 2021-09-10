@@ -3,9 +3,22 @@
 }
 
 .about-main {
+    position: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .about-header {
     margin: 1em
+}
+
+.about-section {
+    margin: 1em 10em;
+}
+
+@media (max-width: 767px) {
+    .about-section {
+        margin: 1em 2em;
+    }
 }

@@ -2,6 +2,27 @@ html {
   margin-top: 72px;
 }
 
+h1, h2, h3, h4, p {
+  color: #dcd2cc;
+}
+
+/* background */
+
+body {
+  background-color: black !important;
+  background-image: url(./assets/images/twinkling.png), url(./assets/images/stars.png) !important;
+  background-repeat: repeat, repeat;
+  background-position-x: center, center;
+  background-position-y: top, top;
+  animation: twinkle 200s linear infinite;
+}
+
+@keyframes twinkle {
+  100% {
+    background-position: -5000px 100%, 3000px 5000px;
+  }
+}
+
 
 /* fade */
 .fade-appear,

@@ -1,15 +1,10 @@
-.sticky {
-  background-color: #212038d8;
-  transition: all 0.3s ease-out 0s;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
-  backdrop-filter: blur(15px);
-}
-
 .top {
   position: fixed;
   transition: all 0.3s ease-out 0s;
-  padding: 0.3rem 2rem;
-  font-size: 1.2rem;
+  /* padding: 0.3rem 2rem; */
+  /* font-size: 1.2rem; */
+  backdrop-filter: blur(15px);
+
   /* border-bottom: 2px solid black; */
 }
 
@@ -18,6 +13,7 @@
   position: relative;
   background-color: transparent;
   border-color: transparent;
+  color: whitesmoke !important;
 }
 
 .navbar-toggler span {
@@ -32,40 +28,18 @@
   opacity: 1;
 }
 
-@media (max-width: 767px) {
-  .top {
-    padding: 1rem 2rem;
-    font-size: 1.4rem;
-    background-color: #ffffff;
-  }
-
-  .show {
-    border-bottom: 2px solid black;
-  }
-
-  .nav-item {
-    text-align: center;
-  }
-}
-
 .navbar-brand {
-  color: black;
+  color: whitesmoke !important;
 }
 
 .navbar-nav .nav-link {
-  color: black;
+  color: whitesmoke !important;
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
 .nav-link {
   padding: 0.8rem 1rem;
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    padding: 0.7rem 1rem;
-  }
 }
 
 .navbar-nav .nav-item {
@@ -96,4 +70,42 @@
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+.nav-socials {
+  display: flex;
+}
+
+.nav-socials svg {
+  width : 1.5em;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .top {
+    background-color: #212038d8;
+  }
+
+  .nav-item {
+    text-align: center;
+    margin: 0 !important;
+  }
+
+  .nav-link {
+    padding: 0.7rem 1rem;
+  }
+  
+  .nav-socials {
+    /* border-top: 2px solid black; */
+    justify-content: center;
+  }
+
+  .nav-socials a {
+    margin: 0em 1em;
+  }
+
+  .nav-socials svg {
+    width : 2em;
+    height: 100%;
+  }
 }

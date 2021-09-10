@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BiMenu } from "react-icons/bi"
 import { AiOutlineClose } from "react-icons/ai"
+import {
+    FaGithub,
+    FaLinkedin,
+} from "react-icons/fa"
 import "./Navbar.css";
 
 function NavBar() {
@@ -22,6 +26,7 @@ function NavBar() {
                     to="/">
                     Elison Liu
                 </Navbar.Brand>
+
                 <Navbar.Toggle
                     onClick={() => {
                         updateExpanded(expand ? false : "expanded")
@@ -64,6 +69,23 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
+                        <div className="nav-socials">
+
+                                <Nav.Link
+                                    href="https://www.github.com"
+                                    onClick={() => updateExpanded(false)}
+                                >
+                                    <FaGithub />
+                                </Nav.Link>
+
+                                <Nav.Link
+                                    href="https://www.linkedin.com"
+                                    onClick={() => updateExpanded(false)}
+                                >
+                                    <FaLinkedin />
+                                </Nav.Link>
+
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

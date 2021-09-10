@@ -69,7 +69,7 @@ function Projects() {
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Title</h4>
-                                    <p className='text-info'>Text</p>
+                                    <p className='text-content'>Text</p>
                                     <div className='text-links'>
                                         <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
                                         <a href="https://www.github.com"><FaGithub className="link-img"/></a>
@@ -89,7 +89,7 @@ function Projects() {
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Title</h4>
-                                    <p className='text-info'>Text</p>
+                                    <p className='text-content'>Text</p>
                                     <div className='text-links'>
                                         <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
                                         <a href="https://www.github.com"><FaGithub className="link-img"/></a>
@@ -101,7 +101,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="type2">
                     <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
                             <img src={imgs.logo5} alt="" />
@@ -109,7 +109,7 @@ function Projects() {
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Title</h4>
-                                    <p className='text-info'>Text</p>
+                                    <p className='text-content'>Text</p>
                                     <div className='text-links'>
                                         <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
                                         <a href="https://www.github.com"><FaGithub className="link-img"/></a>
@@ -121,7 +121,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="type3">
                     <div className="portfolio logo" data-cat="logo">
                         <div className="portfolio-wrapper">
                             <img src={imgs.logo5} alt="" />
@@ -129,7 +129,7 @@ function Projects() {
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
                                     <h4 className="text-title">Title</h4>
-                                    <p className='text-info'>Text</p>
+                                    <p className='text-content'>Text</p>
                                     <div className='text-links'>
                                         <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
                                         <a href="https://www.github.com"><FaGithub className="link-img"/></a>

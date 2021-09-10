@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     text-align:center;
     justify-content: center;
+    margin: 0em 5em;
 }
 
 .about-skills svg {
@@ -13,7 +14,7 @@
     margin: 1em;
     padding: 1em 2em 0em 2em;
     opacity: 0.85;
-    border: 1.7px solid black;
+    border: 1.7px solid whitesmoke;
     vertical-align: middle;
     text-align: center;
     border-radius: 10px;
@@ -23,10 +24,13 @@
 
 .icon-img {
     width:100%;
+    color:whitesmoke;
+    opacity: 0.7;
+    transition: all 0.4s ease 0s;
 }
 
 .skill-icon-desc {
-    color:white;
+    color:black;
 }
 
 .skill-icon:hover {
@@ -37,11 +41,27 @@
 
 .skill-icon:hover .skill-icon-desc {
     transition: all 0.4s ease 0s;
-    color: black;
+    color: whitesmoke;
+}
+
+.skill-icon:hover .icon-img {
+    opacity: 1;
 }
 
 @media (max-width: 767px) {
     .skill-icon-desc {
-        color: black;
+        color: whitesmoke;
+    }
+
+    .about-skills {
+        margin: 0em 2em;
+    }
+
+    .about-skills svg {
+        height:3em;
+    }
+
+    .skill-icon-desc{
+        font-size: 0.7rem;
     }
 }

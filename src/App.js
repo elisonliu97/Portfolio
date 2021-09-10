@@ -29,7 +29,7 @@ function App() {
         </TransitionGroup>
       )} />
 
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
