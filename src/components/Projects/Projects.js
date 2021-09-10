@@ -50,7 +50,7 @@ function Projects() {
     return (
 
         <div className="projects-container">
-            <h2>Portfolio</h2>
+            <h2 className="project-header">Portfolio</h2>
 
             <ul className="filter-menu">
                 <li className="filter-btn active" data-target="all">All</li>
