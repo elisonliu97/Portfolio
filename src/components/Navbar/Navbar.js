@@ -54,7 +54,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/"
+                                to="/portfolio"
                                 onClick={() => updateExpanded(false)}
                             >
                                 Home
@@ -64,7 +64,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/about"
+                                to="/portfolio/about"
                                 onClick={() => updateExpanded(false)}
                             >
                                 About
@@ -74,7 +74,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/projects"
+                                to="/portfolio/projects"
                                 onClick={() => updateExpanded(false)}
                             >
                                 Projects

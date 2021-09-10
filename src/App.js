@@ -20,9 +20,9 @@ function App() {
             classNames="fade"
           >
             <Switch location={location}>
-              <Route path="/" exact component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
+              <Route path="/portfolio/" exact component={Home} />
+              <Route path="/portfolio/about" component={About} />
+              <Route path="/portfolio/projects" component={Projects} />
             </Switch>
           </CSSTransition>
         </TransitionGroup>
