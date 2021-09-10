@@ -2,7 +2,6 @@ import NavBar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from './components/Projects/Projects'
-import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,8 +27,6 @@ function App() {
           </CSSTransition>
         </TransitionGroup>
       )} />
-
-      {/* <Footer /> */}
     </Router>
   );
 }

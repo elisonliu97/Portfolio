@@ -1,8 +1,15 @@
-
-import logo5 from "./5.jpg";
+import codeCreatures from "./code-creatures.png";
+import bookSearchEngine from './BookSearchEngine.png'
+import tektok from './Tektok.png'
+import fitness from "./fitness.png"
+import budget from './budget.png'
 
 const imgs = {
-    logo5
+    codeCreatures,
+    bookSearchEngine,
+    tektok,
+    fitness,
+    budget,
 }
 
 export default imgs;

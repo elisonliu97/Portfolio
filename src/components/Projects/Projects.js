@@ -26,7 +26,7 @@ function Projects() {
                     filterCard[k].classList.remove('shown');
                     filterCard[k].classList.add('hide');
 
-                    if (filterCard[k].getAttribute('data-item') === targetData || targetData === "all") {
+                    if (filterCard[k].getAttribute('data-item').includes(targetData)|| targetData === "all") {
                         filterCard[k].classList.remove('hide');
                         filterCard[k].classList.add('shown');
                     }
@@ -62,17 +62,17 @@ function Projects() {
             <ul className="card-container">
 
                 <li className="filter-card" data-item="type1">
-                    <div className="portfolio logo" data-cat="logo">
+                    <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt="" />
+                            <img src={imgs.codeCreatures} alt="" className="card-img" />
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Title</h4>
+                                    <h4 className="text-title">Code Creatures</h4>
                                     <p className='text-content'>Text</p>
                                     <div className='text-links'>
-                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                        <a href="https://cold-code-creatures.herokuapp.com/"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://github.com/Staycold/Code-creatures"><FaGithub className="link-img"/></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -82,17 +82,17 @@ function Projects() {
                 </li>
 
                 <li className="filter-card" data-item="type1">
-                    <div className="portfolio logo" data-cat="logo">
+                    <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt="" />
+                            <img src={imgs.bookSearchEngine} alt="" />
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Title</h4>
+                                    <h4 className="text-title">Book Search Engine</h4>
                                     <p className='text-content'>Text</p>
                                     <div className='text-links'>
-                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                        <a href="https://book-search-engine-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://github.com/elisonliu97/Book-Search-Engine"><FaGithub className="link-img"/></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -102,17 +102,37 @@ function Projects() {
                 </li>
 
                 <li className="filter-card" data-item="type2">
-                    <div className="portfolio logo" data-cat="logo">
+                    <div className="portfolio">
                         <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt="" />
+                            <img src={imgs.fitness} alt="" />
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Title</h4>
+                                    <h4 className="text-title">Fitness Tracker</h4>
                                     <p className='text-content'>Text</p>
                                     <div className='text-links'>
-                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                        <a href="https://fitness-tracker-hw-el.herokuapp.com"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://github.com/elisonliu97/Fitness-Tracker-HW"><FaGithub className="link-img"/></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="type3 type2">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper"> 
+                            <img src={imgs.tektok} alt="" />
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Tektok</h4>
+                                    <p className='text-content'>Text</p>
+                                    <div className='text-links'>
+                                        <a href="https://tech-blog-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://github.com/elisonliu97/Tech-Blog-HW"><FaGithub className="link-img"/></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -122,17 +142,17 @@ function Projects() {
                 </li>
 
                 <li className="filter-card" data-item="type3">
-                    <div className="portfolio logo" data-cat="logo">
-                        <div className="portfolio-wrapper">
-                            <img src={imgs.logo5} alt="" />
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper"> 
+                            <img src={imgs.budget} alt="" />
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Title</h4>
+                                    <h4 className="text-title">Budget Tracker</h4>
                                     <p className='text-content'>Text</p>
                                     <div className='text-links'>
-                                        <a href="https://www.heroku.com"><FaShareSquare className="link-img"/></a>
-                                        <a href="https://www.github.com"><FaGithub className="link-img"/></a>
+                                        <a href="https://budget-tracker-el.herokuapp.com/"><FaShareSquare className="link-img"/></a>
+                                        <a href="https://github.com/elisonliu97/Budget-Tracker-HW"><FaGithub className="link-img"/></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -140,7 +160,8 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-
+                
+                
             </ul>
         </div>
     )
