@@ -1,11 +1,14 @@
 .top {
   position: fixed;
   transition: all 0.3s ease-out 0s;
-  /* padding: 0.3rem 2rem; */
-  /* font-size: 1.2rem; */
   backdrop-filter: blur(15px);
+}
 
-  /* border-bottom: 2px solid black; */
+.sticky {
+  background-color: #212038d8;
+  transition: all 0.3s ease-out 0s;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+  backdrop-filter: blur(15px);
 }
 
 .navbar-toggler {
@@ -96,7 +99,6 @@
   }
   
   .nav-socials {
-    /* border-top: 2px solid black; */
     justify-content: center;
   }
 
