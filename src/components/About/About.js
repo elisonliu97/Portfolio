@@ -23,13 +23,13 @@ function About() {
                 <h3>Contact</h3>
                 <div className="about-contact">
                     <p>
-                    <a href="https://www.github.com/elisonliu97" target="_blank" rel="noreferrer"><FaGithub /> elisonliu97</a>
+                        <a href="https://www.github.com/elisonliu97" target="_blank" rel="noreferrer"><FaGithub /> elisonliu97</a>
                     </p>
                     <p>
-                    <a href="mailto:elisonliu97@gmail.com" target="_blank" rel="noreferrer"><GoMail /> elisonliu97@gmail.com</a>
+                        <a href="mailto:elisonliu97@gmail.com" target="_blank" rel="noreferrer"><GoMail /> elisonliu97@gmail.com</a>
                     </p>
                     <p>
-                    <a href="https://www.linkedin.com/in/elisonliu/" target="_blank" rel="noreferrer"><FaLinkedin /> ElisonLiu</a>
+                        <a href="https://www.linkedin.com/in/elisonliu/" target="_blank" rel="noreferrer"><FaLinkedin /> ElisonLiu</a>
                     </p>
                 </div>
             </div>
@@ -38,7 +38,3 @@ function About() {
 }
 
 export default About;
-
-// introduction to myself
-// skills i know
-// 
