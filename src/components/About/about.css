@@ -20,9 +20,11 @@
 .about-contact {
     display: flex;
     justify-content: center;
+    width:100%;
 }
 
 .about-contact p {
+    display: inline;
     margin: 0.5rem 3rem;
 }
 
@@ -33,5 +35,11 @@
 @media (max-width: 767px) {
     .about-section {
         margin: 1em 2em;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-contact {
+        flex-direction: column;
     }
 }
