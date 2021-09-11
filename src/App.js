@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
 function App() {
@@ -12,11 +13,19 @@ function App() {
     <Router>
       <NavBar />
       <Route render={({ location }) => (
-        <Switch location={location}>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-        </Switch>
+        <TransitionGroup>
+          <CSSTransition
+            key={location.pathname}
+            timeout={0}
+            classNames="fade"
+          >
+            <Switch location={location}>
+              <Route path="/" exact component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
       )} />
     </Router>
   );
