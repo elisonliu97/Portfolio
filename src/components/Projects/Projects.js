@@ -36,6 +36,9 @@ function Projects() {
 
         for (let i = 0; i < filterCard.length; i++) {
             filterCard[i].addEventListener('click', function (event) {
+                if (event.target.parentElement.parentElement.children[1] === undefined) {
+                    return
+                }
                 event.target.parentElement.parentElement.children[1].style.bottom = "0px";
             });
         }
@@ -44,6 +47,7 @@ function Projects() {
     })
 
     function closeTab(event) {
+        event.stopPropagation();
         event.target.parentElement.parentElement.style.bottom = "-100%";
     }
 
@@ -54,14 +58,17 @@ function Projects() {
 
             <ul className="filter-menu">
                 <li className="filter-btn active" data-target="all">All</li>
-                <li className="filter-btn" data-target="type1">type1</li>
-                <li className="filter-btn" data-target="type2">type2</li>
-                <li className="filter-btn" data-target="type3">type3</li>
+                <li className="filter-btn" data-target="full-stack">Full Stack</li>
+                <li className="filter-btn" data-target="front-end">Front End</li>
+                <li className="filter-btn" data-target="back-end">Back End</li>
+                <li className="filter-btn" data-target="ReactJS">ReactJS</li>
+                <li className="filter-btn" data-target="MongoDB">MongoDB</li>
+                <li className="filter-btn" data-target="MySQL">MySQL</li>
             </ul>
 
             <ul className="card-container">
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="ReactJS full-stack MongoDB">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
@@ -82,8 +89,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://cold-code-creatures.herokuapp.com/"><FaShareSquare className="link-img" /></a>
-                                        <a href="https://github.com/Staycold/Code-creatures"><FaGithub className="link-img" /></a>
+                                        <a href="https://cold-code-creatures.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/Staycold/Code-creatures" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -92,7 +99,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="full-stack ReactJS MongoDB">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
@@ -113,8 +120,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://book-search-engine-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
-                                        <a href="https://github.com/elisonliu97/Book-Search-Engine"><FaGithub className="link-img" /></a>
+                                        <a href="https://book-search-engine-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Book-Search-Engine" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -123,7 +130,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="full-stack MongoDB">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
@@ -144,8 +151,8 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://fitness-tracker-hw-el.herokuapp.com"><FaShareSquare className="link-img" /></a>
-                                        <a href="https://github.com/elisonliu97/Fitness-Tracker-HW"><FaGithub className="link-img" /></a>
+                                        <a href="https://fitness-tracker-hw-el.herokuapp.com" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Fitness-Tracker-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -154,7 +161,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="full-stack MySQL">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
@@ -176,8 +183,8 @@ function Projects() {
                                     </div>
 
                                     <div className="text-links">
-                                        <a href="https://tech-blog-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
-                                        <a href="https://github.com/elisonliu97/Tech-Blog-HW"><FaGithub className="link-img" /></a>
+                                        <a href="https://tech-blog-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Tech-Blog-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
@@ -186,7 +193,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="filter-card" data-item="type1">
+                <li className="filter-card" data-item="full-stack MongoDB">
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
@@ -207,8 +214,101 @@ function Projects() {
                                         </p>
                                     </div>
                                     <div className='text-links'>
-                                        <a href="https://budget-tracker-el.herokuapp.com/"><FaShareSquare className="link-img" /></a>
-                                        <a href="https://github.com/elisonliu97/Budget-Tracker-HW"><FaGithub className="link-img" /></a>
+                                        <a href="https://budget-tracker-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Budget-Tracker-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="front-end">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.weatherapp} alt="" className="card-img" />
+                                <div className="card-label">
+                                    <span className='label-title'>Weather App</span> <br />
+                                    A web application that allows users to check the weather for any city. Gives both the daily forecast
+                                    and a 5 day forecast.
+                                </div>
+                            </div>
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Weather App</h4>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
+                                    <div className='text-links'>
+                                        <a href="https://elisonliu97.github.io/Weather-App-HW/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Weather-App-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="back-end MySQL">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.weatherapp} alt="" className="card-img" />
+                                <div className="card-label">
+                                    <span className='label-title'>E-Commerce CLI</span> <br />
+                                    A command line interface that allows for RESTful CRUD operations to allow users to work around a
+                                    database built with MySQL.
+                                </div>
+                            </div>
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">E-Commerce Back End</h4>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
+                                    <div className='text-links'>
+                                        <a href="https://github.com/elisonliu97/E-Commerce-Back-End-Hw" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="back-end MySQL">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.weatherapp} alt="" className="card-img" />
+                                <div className="card-label">
+                                    <span className='label-title'>Employee Database CLI</span> <br />
+                                    A command line interface that accesses an employee database and allows for RESTful CRUD operations.
+                                </div>
+                            </div>
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">E-Commerce Back End</h4>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
+                                    <div className='text-links'>
+                                        <a href="https://github.com/elisonliu97/Employee-Database-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>
