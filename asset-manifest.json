@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f91c5dc8.chunk.css",
-    "main.js": "/Portfolio/static/js/main.4b80a01e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.4b80a01e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ecb01f63.chunk.css",
+    "main.js": "/Portfolio/static/js/main.aae50511.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.aae50511.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.a0a83f95.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a0a83f95.js.map",
     "static/css/2.818011ed.chunk.css": "/Portfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.ef6b98c1.chunk.js": "/Portfolio/static/js/2.ef6b98c1.chunk.js",
-    "static/js/2.ef6b98c1.chunk.js.map": "/Portfolio/static/js/2.ef6b98c1.chunk.js.map",
+    "static/js/2.fc88dd1e.chunk.js": "/Portfolio/static/js/2.fc88dd1e.chunk.js",
+    "static/js/2.fc88dd1e.chunk.js.map": "/Portfolio/static/js/2.fc88dd1e.chunk.js.map",
     "static/js/3.881a3734.chunk.js": "/Portfolio/static/js/3.881a3734.chunk.js",
     "static/js/3.881a3734.chunk.js.map": "/Portfolio/static/js/3.881a3734.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/Portfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.f91c5dc8.chunk.css.map": "/Portfolio/static/css/main.f91c5dc8.chunk.css.map",
-    "static/js/2.ef6b98c1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ef6b98c1.chunk.js.LICENSE.txt",
+    "static/css/main.ecb01f63.chunk.css.map": "/Portfolio/static/css/main.ecb01f63.chunk.css.map",
+    "static/js/2.fc88dd1e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fc88dd1e.chunk.js.LICENSE.txt",
     "static/media/BookSearchEngine.b2b785c8.png": "/Portfolio/static/media/BookSearchEngine.b2b785c8.png",
     "static/media/Rlogo.02794c1c.png": "/Portfolio/static/media/Rlogo.02794c1c.png",
     "static/media/Tektok.f35d94c4.png": "/Portfolio/static/media/Tektok.f35d94c4.png",
@@ -22,13 +22,16 @@
     "static/media/expressjs-icon.967f19e5.png": "/Portfolio/static/media/expressjs-icon.967f19e5.png",
     "static/media/fitness.a7914070.png": "/Portfolio/static/media/fitness.a7914070.png",
     "static/media/graphql.a694f069.png": "/Portfolio/static/media/graphql.a694f069.png",
-    "static/media/App.css": "/Portfolio/static/media/stars.90c266f7.png"
+    "static/media/notetaker.9b592b38.png": "/Portfolio/static/media/notetaker.9b592b38.png",
+    "static/media/profilegenerator.5ebdf206.png": "/Portfolio/static/media/profilegenerator.5ebdf206.png",
+    "static/media/App.css": "/Portfolio/static/media/stars.90c266f7.png",
+    "static/media/weatherapp.34955d44.png": "/Portfolio/static/media/weatherapp.34955d44.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a0a83f95.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.ef6b98c1.chunk.js",
-    "static/css/main.f91c5dc8.chunk.css",
-    "static/js/main.4b80a01e.chunk.js"
+    "static/js/2.fc88dd1e.chunk.js",
+    "static/css/main.ecb01f63.chunk.css",
+    "static/js/main.aae50511.chunk.js"
   ]
 }
