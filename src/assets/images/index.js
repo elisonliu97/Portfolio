@@ -7,6 +7,8 @@ import rlogo from './Rlogo.png'
 import expressicon from './expressjs-icon.png'
 import graphqlicon from './graphql.png'
 import weatherapp from './weatherapp.png'
+import notetaker from './notetaker.png'
+import profilegen from './profilegenerator.png'
 
 const imgs = {
     codeCreatures,
@@ -17,7 +19,9 @@ const imgs = {
     rlogo,
     expressicon,
     graphqlicon,
-    weatherapp
+    weatherapp,
+    notetaker,
+    profilegen
 }
 
 export default imgs;

@@ -2,8 +2,8 @@ html {
   margin-top: 72px;
 }
 
-h1, h2, h3, h4, p {
-  color: ivory;
+h1, h2, h3, h4, p, a{
+  color: ivory !important;
 }
 
 /* background */

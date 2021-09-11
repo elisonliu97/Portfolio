@@ -84,7 +84,7 @@ function NavBar() {
                         <div className="nav-socials">
 
                                 <Nav.Link
-                                    href="https://www.github.com"
+                                    href="https://www.github.com/elisonliu97"
                                     target="_blank"
                                     onClick={() => updateExpanded(false)}
                                 >
@@ -92,7 +92,7 @@ function NavBar() {
                                 </Nav.Link>
 
                                 <Nav.Link
-                                    href="https://www.linkedin.com"
+                                    href="https://www.linkedin.com/in/elisonliu/"
                                     target="_blank"
                                     onClick={() => updateExpanded(false)}
                                 >

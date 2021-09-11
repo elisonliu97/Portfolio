@@ -300,7 +300,7 @@ function Projects() {
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">E-Commerce Back End</h4>
+                                    <h4 className="text-title">Employee Database CLI</h4>
                                     <div className='text-content'>
                                         <p>
                                             Role: Sole Author <br />
@@ -309,6 +309,68 @@ function Projects() {
                                     </div>
                                     <div className='text-links'>
                                         <a href="https://github.com/elisonliu97/Employee-Database-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="back-end">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.profilegen} alt="" className="card-img" />
+                                <div className="card-label">
+                                    <span className='label-title'>Team Profile Generator</span> <br />
+                                    A command line interface that asks the user about members of a tech team, and generates a team
+                                    profile page based on the user's input.
+                                </div>
+                            </div>
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Team Profile Generator</h4>
+                                    <div className='text-content'>
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
+                                    <div className='text-links'>
+                                        <a href="https://github.com/elisonliu97/team-profile-generator" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                    </div>
+                                </div>
+                                <div className="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="filter-card" data-item="full-stack">
+                    <div className="portfolio">
+                        <div className="portfolio-wrapper">
+                            <div className="portfolio-card">
+                                <img src={imgs.notetaker} alt="" className="card-img" />
+                                <div className="card-label">
+                                    <span className='label-title'>Note Taker</span> <br />
+                                    A web application that allows the user to save and delete notes that they write.
+                                </div>
+                            </div>
+                            <div className="label">
+                                <div className="label-text">
+                                    <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                    <h4 className="text-title">Note Taker</h4>
+                                    <div className='text-content'>``
+                                        <p>
+                                            Role: Sole Author <br />
+                                            Responsibilities: <br />
+                                        </p>
+                                    </div>
+                                    <div className='text-links'>
+                                        <a href="https://note-taker-hw-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                        <a href="https://github.com/elisonliu97/Note-Taker-Hw" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                     </div>
                                 </div>
                                 <div className="label-bg"></div>

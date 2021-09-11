@@ -17,6 +17,19 @@
     margin: 1em 10em;
 }
 
+.about-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.about-contact p {
+    margin: 0.5rem 3rem;
+}
+
+.about-contact a {
+    text-decoration: none;
+}
+
 @media (max-width: 767px) {
     .about-section {
         margin: 1em 2em;
