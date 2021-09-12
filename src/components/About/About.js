@@ -2,13 +2,18 @@ import Skills from "./skills";
 import {
     FaGithub,
     FaLinkedin,
-} from "react-icons/fa"
-import { GoMail } from "react-icons/go"
+} from "react-icons/fa";
+import { GoMail } from "react-icons/go";
+import { motion } from 'framer-motion';
 import "./about.css";
 
 function About() {
 
     return (
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}>
         <div className="about-container">
             <div className="about-main">
                 <h2 className="about-header">Hi I'm Elison</h2>
@@ -34,6 +39,7 @@ function About() {
                 </div>
             </div>
         </div>
+        </motion.div>
     )
 }
 

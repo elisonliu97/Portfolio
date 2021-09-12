@@ -22,35 +22,3 @@ body {
     background-position: -5000px 100%, 3000px 5000px;
   }
 }
-
-
-/* fade */
-.fade-appear,
-.fade-enter {
-  opacity: 0 !important;
-  z-index: 1 !important;
-}
-
-.fade-appear-active,
-.fade-enter.fade-enter-active {
-  opacity: 1 !important;
-  -webkit-transition: opacity 3000ms ease-in !important;
-  -moz-transition: opacity 3000ms ease-in !important;
-  -o-transition: opacity 3000ms ease-in !important;
-  transition: opacity 3000ms ease-in !important;
-}
-
-.fade-exit{
-  opacity: 1 !important;
-}
-
-.fade-exit.fade-exit-active {
-  opacity: 0 !important;
-  
-  -webkit-transition: opacity 3000ms linear !important;
-  -moz-transition: opacity 3000ms linear !important;
-  -o-transition: opacity 3000ms linear !important;
-  transition: opacity 3000ms linear !important;
-}
-
-

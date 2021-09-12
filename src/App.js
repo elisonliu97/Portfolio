@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { AnimatePresence } from 'framer-motion'
 
 
 function App() {
@@ -13,19 +13,14 @@ function App() {
     <Router>
       <NavBar />
       <Route render={({ location }) => (
-        <TransitionGroup>
-          <CSSTransition
-            key={location.pathname}
-            timeout={0}
-            classNames="fade"
-          >
-            <Switch location={location}>
-              <Route path="/" exact component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-            </Switch>
-          </CSSTransition>
-        </TransitionGroup>
+        <AnimatePresence exitBeforeEnter>
+          <Switch location={location} key={location.pathname}>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+          </Switch>
+        </AnimatePresence>
+
       )} />
     </Router>
   );
