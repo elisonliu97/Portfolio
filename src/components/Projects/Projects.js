@@ -81,11 +81,17 @@ function Projects() {
                             <div className="label">
                                 <div className="label-text">
                                     <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
-                                    <h4 className="text-title">Code Creatures</h4>
                                     <div className='text-content'>
+                                    <h4 className="text-title">Code Creatures</h4>
                                         <p>
-                                            Role: Full Stack Developer <br />
+                                            <span className="text-role">Role: Full Stack Developer</span> <br />
                                             Responsibilities: <br />
+                                            - Created models, such as user data and inventory, for database <br />
+                                            - Created typedefs and resolvers to use CRUD operations <br />
+                                            - Helped create server-side authentification using JWT <br />
+                                            - Created profile page and store page <br />
+                                            - Set up new user event <br />
+                                            - Helped fix any errors that occured <br />
                                         </p>
                                     </div>
                                     <div className='text-links'>
@@ -200,7 +206,8 @@ function Projects() {
                                 <img src={imgs.budget} alt="" className="card-img" />
                                 <div className="card-label">
                                     <span className='label-title'>Budget Tracker</span> <br />
-                                    A web application that allows users to keep track of their spendings and earnings.
+                                    A web application that allows users to keep track of their spendings and earnings that stores inputs even if
+                                    disconnected.
                                 </div>
                             </div>
                             <div className="label">
@@ -294,7 +301,8 @@ function Projects() {
                                 <img src={imgs.weatherapp} alt="" className="card-img" />
                                 <div className="card-label">
                                     <span className='label-title'>Employee Database CLI</span> <br />
-                                    A command line interface that accesses an employee database and allows for RESTful CRUD operations.
+                                    A command line interface that accesses an employee database built with MySQL
+                                    and allows for RESTful CRUD operations.
                                 </div>
                             </div>
                             <div className="label">
@@ -355,7 +363,8 @@ function Projects() {
                                 <img src={imgs.notetaker} alt="" className="card-img" />
                                 <div className="card-label">
                                     <span className='label-title'>Note Taker</span> <br />
-                                    A web application that allows the user to save and delete notes that they write.
+                                    A web application that allows the user to save and delete notes that they write. Notes are saved in
+                                    local storage so that it can be accessed at a later time.
                                 </div>
                             </div>
                             <div className="label">

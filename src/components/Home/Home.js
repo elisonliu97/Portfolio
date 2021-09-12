@@ -15,6 +15,3 @@ function Home() {
 }
 
 export default Home;
-
-// add in background image
-// hover effect on button

@@ -13,10 +13,10 @@ function About() {
             <div className="about-main">
                 <h2 className="about-header">Hi I'm Elison</h2>
                 <p className="about-section">
-                    I'm a full stack developer with a background in data and a passion to bring ideas to life.
+                    I'm a full stack developer with a background in data and a passion for bringing ideas to life.
                     I studied under the Computer, Mathematical, and Statistical Sciences Program from the University of Toronto,
                     and earned a certificate in Full Stack Web Development from the University of Toronto School of Continuing Studies
-                    Boot Camp. I'm a problem solver with a passion to learn about new technologies and different ways to innovate.
+                    Boot Camp. I'm a problem solver who is continually learning about new technologies and looking for different ways to innovate.
                 </p>
                 <h3> Technologies </h3>
                 <Skills />
