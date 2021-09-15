@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.44816e30.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b64b17b1.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b64b17b1.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f68cfbe3.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0cbece12.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0cbece12.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b67bb089.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b67bb089.js.map",
     "static/css/2.818011ed.chunk.css": "/Portfolio/static/css/2.818011ed.chunk.css",
@@ -12,13 +12,15 @@
     "static/js/3.61325516.chunk.js.map": "/Portfolio/static/js/3.61325516.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/Portfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.44816e30.chunk.css.map": "/Portfolio/static/css/main.44816e30.chunk.css.map",
+    "static/css/main.f68cfbe3.chunk.css.map": "/Portfolio/static/css/main.f68cfbe3.chunk.css.map",
     "static/js/2.8c6707d9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8c6707d9.chunk.js.LICENSE.txt",
     "static/media/BookSearchEngine.b2b785c8.png": "/Portfolio/static/media/BookSearchEngine.b2b785c8.png",
     "static/media/Rlogo.02794c1c.png": "/Portfolio/static/media/Rlogo.02794c1c.png",
     "static/media/Tektok.f35d94c4.png": "/Portfolio/static/media/Tektok.f35d94c4.png",
     "static/media/budget.6ecbe929.png": "/Portfolio/static/media/budget.6ecbe929.png",
     "static/media/code-creatures.fa374306.png": "/Portfolio/static/media/code-creatures.fa374306.png",
+    "static/media/e-com.83fbd530.png": "/Portfolio/static/media/e-com.83fbd530.png",
+    "static/media/employdb.496a684e.png": "/Portfolio/static/media/employdb.496a684e.png",
     "static/media/expressjs-icon.967f19e5.png": "/Portfolio/static/media/expressjs-icon.967f19e5.png",
     "static/media/fitness.a7914070.png": "/Portfolio/static/media/fitness.a7914070.png",
     "static/media/graphql.a694f069.png": "/Portfolio/static/media/graphql.a694f069.png",
@@ -31,7 +33,7 @@
     "static/js/runtime-main.b67bb089.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.8c6707d9.chunk.js",
-    "static/css/main.44816e30.chunk.css",
-    "static/js/main.b64b17b1.chunk.js"
+    "static/css/main.f68cfbe3.chunk.css",
+    "static/js/main.0cbece12.chunk.js"
   ]
 }
