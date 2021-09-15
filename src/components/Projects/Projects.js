@@ -70,6 +70,8 @@ function Projects() {
                 <li className="filter-btn" data-target="MySQL">MySQL</li>
             </ul>
 
+            <p> If the text goes off the box, scroll inside the box to read more</p>
+
             <ul className="card-container">
 
                 <li className="filter-card" data-item="ReactJS full-stack MongoDB">
@@ -271,7 +273,7 @@ function Projects() {
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
-                                <img src={imgs.weatherapp} alt="" className="card-img" />
+                                <img src={imgs.ecom} alt="" className="card-img" />
                                 <div className="card-label">
                                     <span className='label-title'>E-Commerce CLI</span> <br />
                                     A command line interface that allows for RESTful CRUD operations to allow users to work around a
@@ -302,7 +304,7 @@ function Projects() {
                     <div className="portfolio">
                         <div className="portfolio-wrapper">
                             <div className="portfolio-card">
-                                <img src={imgs.weatherapp} alt="" className="card-img" />
+                                <img src={imgs.employdb} alt="" className="card-img" />
                                 <div className="card-label">
                                     <span className='label-title'>Employee Database CLI</span> <br />
                                     A command line interface that accesses an employee database built with MySQL
