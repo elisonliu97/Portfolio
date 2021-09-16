@@ -8,6 +8,7 @@ import {
     FaLinkedin,
 } from "react-icons/fa"
 import { GoMail } from "react-icons/go"
+import { IoDocumentTextOutline } from "react-icons/io5"
 import "./Navbar.css";
 
 function NavBar() {
@@ -83,27 +84,33 @@ function NavBar() {
 
                         <div className="nav-socials">
 
-                                <Nav.Link
-                                    href="https://www.github.com/elisonliu97"
-                                    target="_blank"
-                                    onClick={() => updateExpanded(false)}
-                                >
-                                    <FaGithub />
-                                </Nav.Link>
+                            <Nav.Link
+                                href="https://www.github.com/elisonliu97"
+                                target="_blank"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <FaGithub />
+                            </Nav.Link>
 
-                                <Nav.Link
-                                    href="https://www.linkedin.com/in/elisonliu/"
-                                    target="_blank"
-                                    onClick={() => updateExpanded(false)}
-                                >
-                                    <FaLinkedin />
-                                </Nav.Link>
-                                <Nav.Link
-                                    href="mailto:elisonliu97@gmail.com"
-                                    onClick={() => updateExpanded(false)}
-                                >
-                                    <GoMail />
-                                </Nav.Link>
+                            <Nav.Link
+                                href="https://www.linkedin.com/in/elisonliu/"
+                                target="_blank"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <FaLinkedin />
+                            </Nav.Link>
+                            <Nav.Link
+                                href="mailto:elisonliu97@gmail.com"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <GoMail />
+                            </Nav.Link>
+                            <Nav.Link
+                                href="https://drive.google.com/file/d/12gwNlhDtTZ6e4GTAxcU3EurRJcKiNxAP/view"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <IoDocumentTextOutline />
+                            </Nav.Link>
 
                         </div>
                     </Nav>

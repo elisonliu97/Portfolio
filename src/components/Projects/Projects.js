@@ -173,7 +173,7 @@ function Projects() {
                                         </div>
                                         <div className='text-links'>
                                             <a href="https://fitness-tracker-hw-el.herokuapp.com" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
-                                            <a href="https://github.com/elisonliu97/Fitness-Tracker-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/Fitness-Tracker" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
@@ -208,7 +208,7 @@ function Projects() {
 
                                         <div className="text-links">
                                             <a href="https://tech-blog-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
-                                            <a href="https://github.com/elisonliu97/Tech-Blog-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/Tektok" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
@@ -245,7 +245,7 @@ function Projects() {
                                         </div>
                                         <div className='text-links'>
                                             <a href="https://budget-tracker-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
-                                            <a href="https://github.com/elisonliu97/Budget-Tracker-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/Budget-Tracker" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
@@ -279,8 +279,8 @@ function Projects() {
                                             </p>
                                         </div>
                                         <div className='text-links'>
-                                            <a href="https://elisonliu97.github.io/Weather-App-HW/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
-                                            <a href="https://github.com/elisonliu97/Weather-App-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://elisonliu97.github.io/Weather-App" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/Weather-App" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
@@ -314,7 +314,7 @@ function Projects() {
                                             </p>
                                         </div>
                                         <div className='text-links'>
-                                            <a href="https://github.com/elisonliu97/E-Commerce-Back-End-Hw" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/E-Commerce-Back-End" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
@@ -348,7 +348,7 @@ function Projects() {
                                             </p>
                                         </div>
                                         <div className='text-links'>
-                                            <a href="https://github.com/elisonliu97/Employee-Database-HW" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/Employee-Database" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
                                         </div>
                                     </div>
                                     <div className="label-bg"></div>
