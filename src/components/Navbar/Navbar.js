@@ -107,6 +107,7 @@ function NavBar() {
                             </Nav.Link>
                             <Nav.Link
                                 href="https://drive.google.com/file/d/12gwNlhDtTZ6e4GTAxcU3EurRJcKiNxAP/view"
+                                target="_blank"
                                 onClick={() => updateExpanded(false)}
                             >
                                 <IoDocumentTextOutline />

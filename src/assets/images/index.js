@@ -11,6 +11,7 @@ import notetaker from './notetaker.png';
 import profilegen from './profilegenerator.png';
 import employdb from './employdb.png'
 import ecom from './e-com.png';
+import spacestagram from './spacestagram.png'
 
 const imgs = {
     codeCreatures,
@@ -26,6 +27,7 @@ const imgs = {
     profilegen,
     employdb,
     ecom,
+    spacestagram,
 };
 
 export default imgs;

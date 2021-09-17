@@ -74,6 +74,43 @@ function Projects() {
 
                 <ul className="card-container">
 
+                <li className="filter-card" data-item="ReactJS front-end">
+                        <div className="portfolio">
+                            <div className="portfolio-wrapper">
+                                <div className="portfolio-card">
+                                    <img src={imgs.spacestagram} alt="" className="card-img" />
+                                    <div className="card-label">
+                                        <span className='label-title'>Spacestagram </span> <br />
+                                        A webpage that pulls images from NASA's Astronomy Photo of the Day API and allows the user to like and share their favourite photos. 
+                                    </div>
+                                </div>
+                                <div className="label">
+                                    <div className="label-text">
+                                        <button className="btn label-exit" onClick={(event) => closeTab(event)}> X </button>
+                                        <div className='text-content'>
+                                            <h4 className="text-title">Spacestagram</h4>
+                                            <p>
+                                                <span className="text-role">Role: Sole Author</span> <br />
+                                                Accomplishments: <br />
+                                                - Infinite scrolling<br />
+                                                - Saved likes even on reload <br />
+                                                - Copy media url to clipboard through share button <br />
+                                                - Animated like and share buttons <br />
+                                                - Loading animation <br />
+                                                - Layout dependent on screen size
+                                            </p>
+                                        </div>
+                                        <div className='text-links'>
+                                            <a href="https://spacestagram-el.herokuapp.com/" target="_blank" rel="noreferrer"><FaShareSquare className="link-img" /></a>
+                                            <a href="https://github.com/elisonliu97/spacestagram" target="_blank" rel="noreferrer"><FaGithub className="link-img" /></a>
+                                        </div>
+                                    </div>
+                                    <div className="label-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
                     <li className="filter-card" data-item="ReactJS full-stack MongoDB">
                         <div className="portfolio">
                             <div className="portfolio-wrapper">
@@ -92,12 +129,12 @@ function Projects() {
                                             <p>
                                                 <span className="text-role">Role: Full Stack Developer</span> <br />
                                                 Accomplishments: <br />
-                                                - Created models, such as user data and inventory, for database <br />
+                                                - Developed models, such as user data and inventory, for database <br />
                                                 - Created typedefs and resolvers to use CRUD operations <br />
                                                 - Helped create server-side authentification using JWT <br />
-                                                - Created profile page and store page <br />
+                                                - Designed profile page and store page <br />
                                                 - Set up new user event <br />
-                                                - Helped fix any errors that occured <br />
+                                                - Fixed any errors that occured <br />
                                             </p>
                                         </div>
                                         <div className='text-links'>
@@ -168,7 +205,7 @@ function Projects() {
                                                 Accomplishments: <br />
                                                 - Created CRUD based backend to access user data <br />
                                                 - Implemented model-controller-view design pattern <br />
-                                                - Implemented MongoDB database<br />
+                                                - Developed design for MongoDB database<br />
                                             </p>
                                         </div>
                                         <div className='text-links'>
@@ -202,7 +239,7 @@ function Projects() {
                                                 Accomplishments: <br />
                                                 - Created CRUD based backend to access user data <br />
                                                 - Implemented model-controller-view design pattern <br />
-                                                - Implemented MySQL database<br />
+                                                - Developed design for MySQL database<br />
                                             </p>
                                         </div>
 
@@ -310,7 +347,7 @@ function Projects() {
                                                 Accomplishments: <br />
                                                 - Created CRUD based backend to access user data <br />
                                                 - Implemented MySQL database<br />
-                                                - Created organized structure for routes to access each table <br />
+                                                - Developed organized structure for routes to access each table <br />
                                             </p>
                                         </div>
                                         <div className='text-links'>
@@ -344,7 +381,7 @@ function Projects() {
                                                 Accomplishments: <br />
                                                 - Created CRUD based backend to access user data <br />
                                                 - Implemented MySQL database<br />
-                                                - Created organized structure for routes to access each table <br />
+                                                - Developed organized structure for routes to access each table <br />
                                             </p>
                                         </div>
                                         <div className='text-links'>
