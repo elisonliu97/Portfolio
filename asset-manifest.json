@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f68cfbe3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.da98d7a5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.da98d7a5.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e8902452.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e8902452.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.67feba25.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.67feba25.js.map",
     "static/css/2.818011ed.chunk.css": "/Portfolio/static/css/2.818011ed.chunk.css",
@@ -26,6 +26,7 @@
     "static/media/graphql.a694f069.png": "/Portfolio/static/media/graphql.a694f069.png",
     "static/media/notetaker.9b592b38.png": "/Portfolio/static/media/notetaker.9b592b38.png",
     "static/media/profilegenerator.5ebdf206.png": "/Portfolio/static/media/profilegenerator.5ebdf206.png",
+    "static/media/spacestagram.9e9803fa.png": "/Portfolio/static/media/spacestagram.9e9803fa.png",
     "static/media/App.css": "/Portfolio/static/media/stars.90c266f7.png",
     "static/media/weatherapp.34955d44.png": "/Portfolio/static/media/weatherapp.34955d44.png"
   },
@@ -34,6 +35,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.ba03e5f9.chunk.js",
     "static/css/main.f68cfbe3.chunk.css",
-    "static/js/main.da98d7a5.chunk.js"
+    "static/js/main.e8902452.chunk.js"
   ]
 }
